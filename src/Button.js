@@ -34,7 +34,7 @@ export default class UpgradedButton extends React.Component{
 
     handleClick = () => {
       console.log("Button clicked...")
-      let buttonText = this.state.buttonText == "Randomize" ? "Avengers: Endgame" : "Randomize"
+      let buttonText = this.state.buttonText == "Randomize" ? "Avengers: Endgame" : "Randomiz"
       this.setState({buttonText: buttonText})
     }
 
